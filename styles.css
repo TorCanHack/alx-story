@@ -1,0 +1,10 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body main .slide {
+  width: 400px;
+  height: 200px;
+}/*# sourceMappingURL=styles.css.map */
