@@ -1,12 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: Tahoma;
+
+    
     main {
+
+        h1 {
+            color: blue;
+            text-align: center;
+        }
         .slide {
             width: 400px;
-            height: 200px;
+            height: 150px;
+            border: 2px solid blue;
+            padding: 2rem;
+            margin: 1rem 0;
+            border-radius: 1rem;
+            box-shadow: 1px 1px 2rem blueviolet;
+
         }
     }
 }
